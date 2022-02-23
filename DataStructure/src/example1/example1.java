@@ -1,8 +1,12 @@
 package example1;
 
+import java.util.List;
+
 public class example1 {
 	
 	public static void main(String[] args) {
-		System.out.println("test");
+		ListClientExample lce = new ListClientExample();
+		List list = lce.getList();
+		System.out.println(list);
 	}
 }
