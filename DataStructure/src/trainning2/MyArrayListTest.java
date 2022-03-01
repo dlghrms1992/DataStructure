@@ -1,4 +1,4 @@
-package training2;
+package trainning2;
 
 public class MyArrayListTest {
 

@@ -178,7 +178,7 @@
         </junit>
     </target>
     <target name="MyArrayList">
-        <java classname="com.allendowney.thinkdast.MyArrayList" failonerror="true" fork="yes">
+        <java classname="trainning2.MyArrayList" failonerror="true" fork="yes">
             <classpath refid="JavaCS.classpath"/>
         </java>
     </target>
@@ -191,7 +191,7 @@
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="com.allendowney.thinkdast.MyArrayListTest" todir="${junit.output.dir}"/>
+            <test name="trainning2.MyArrayListTest" todir="${junit.output.dir}"/>
             <classpath refid="JavaCS.classpath"/>
         </junit>
     </target>
